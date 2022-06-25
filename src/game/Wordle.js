@@ -1,4 +1,6 @@
-import words from "./words.json";
+import wordList from "./words.json";
+
+const words = wordList.map(w => w.toLowerCase());
 
 export const WordleLetterState = {
     GRAY: 0,

@@ -18,11 +18,15 @@
 .App-header {
   min-height: 6vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   background-color: var(--bg2-color);
+}
+
+.logo {
+  height: 5vh;
 }
 
 main {
